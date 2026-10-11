@@ -49,7 +49,6 @@ function App() {
             <li className="todo-item" key={item.id}>
               <div className="todo-text">
                 <h2>{item.title}</h2>
-                <p>{new Date(item.id).toLocaleString()}</p>
               </div>
               <button
                 className="btn btn-remove"
